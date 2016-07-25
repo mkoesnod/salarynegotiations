@@ -22,7 +22,17 @@ nav a {
 
 nav a:hover {
   color:pink;
+}
 
+.carousel-item img {
+    margin: 0 auto;
+}
+
+.carousel-caption {
+  color: grey;
+  text-shadow: 2px solid black;
+
+}
 
 #negotiations101 h2{
   text-align: center;
