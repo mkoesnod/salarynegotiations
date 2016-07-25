@@ -3,9 +3,36 @@
   background-size: cover;
 }
 
+<<<<<<< Updated upstream
+=======
+
+nav ul li {
+  list-style: none;
+  color:red;
+  float: left;
+  padding: 0px 40px;
+  background-color: cornflowerblue;
+  text-align: center;
+  line-height: 42px;
+
+}
+
+nav a {
+  text-decoration: none;
+  color: darkblue;
+}
+
+nav a:hover {
+  color:pink;
+}
+
+>>>>>>> Stashed changes
 #negotiations101 h2{
   text-align: center;
-  font-size: 30px;
+  font-size: 50px;
+  margin-bottom: 0px;
+  padding-bottom: 15px;
+  padding-top: 15px;
 }
 
 .row {
@@ -13,20 +40,25 @@
   background-color: tan;
   background-size: cover;
   width: 100%;
-  margin-left: 0;
+  margin-left: 10px;
+  margin-top: 0px;
+  padding-left: 50px;
+
 }
 
 .col-sm-4 {
   position: relative;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 20px;
+  padding-left: 20px;
   display: block;
+
 }
 
 .col-sm-4 img{
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: auto;
 }
 
 .col-sm-4 h3{
