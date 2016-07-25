@@ -1,3 +1,8 @@
+#negotiations101 {
+  background-color: tan;
+  background-size: cover;
+}
+
 
 nav ul li {
   list-style: none;
@@ -17,5 +22,47 @@ nav a {
 
 nav a:hover {
   color:pink;
+
+
+#negotiations101 h2{
+  text-align: center;
+  font-size: 30px;
+}
+
+.row {
+  margin: 2em;
+  background-color: tan;
+  background-size: cover;
+  width: 100%;
+  margin-left: 0;
+}
+
+.col-sm-4 {
+  position: relative;
+  padding-right: 15px;
+  padding-left: 15px;
+  display: block;
+}
+
+.col-sm-4 img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.col-sm-4 h3{
+  text-align: center;
+}
+
+.col-sm-4 p{
+  max-width: 100%;
+}
+
+.socialmedia {
+  text-align: center;
+}
+.socialmedia li{
+  list-style-type: none;
+  text-align: center;
 
 }
