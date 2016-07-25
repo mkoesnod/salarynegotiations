@@ -3,6 +3,27 @@
   background-size: cover;
 }
 
+
+nav ul li {
+  list-style: none;
+  color:red;
+  float: left;
+  padding: 0px 40px;
+  background-color: cornflowerblue;
+  text-align: center;
+  line-height: 42px;
+
+}
+
+nav a {
+  text-decoration: none;
+  color: darkblue;
+}
+
+nav a:hover {
+  color:pink;
+
+
 #negotiations101 h2{
   text-align: center;
   font-size: 30px;
@@ -43,4 +64,5 @@
 .socialmedia li{
   list-style-type: none;
   text-align: center;
+
 }
