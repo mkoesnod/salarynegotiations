@@ -3,7 +3,7 @@
   background-size: cover;
 }
 
-<<<<<<< HEAD
+
 #navbar{
   width: 100%;
 
@@ -13,13 +13,7 @@
   font-family: 'Hind', sans-serif;
   text-decoration: none;
 }
-=======
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> 2e870ef2a914b8a38ab64eae5a579364f2af8f46
->>>>>>> master
+
 
 nav ul li {
   list-style: none;
@@ -36,15 +30,13 @@ nav a {
 }
 
 nav a:hover {
-<<<<<<< HEAD
+
   color:rgb(219, 145, 231);
-=======
+
   color:pink;
 }
 
-<<<<<<< HEAD
->>>>>>> Stashed changes
-=======
+
 .carousel-item img {
     margin: 0 auto;
 }
@@ -55,7 +47,7 @@ nav a:hover {
 
 }
 
->>>>>>> 2e870ef2a914b8a38ab64eae5a579364f2af8f46
+
 #negotiations101 h2{
   text-align: center;
   font-size: 50px;
@@ -104,6 +96,6 @@ nav a:hover {
 .socialmedia li{
   list-style-type: none;
   text-align: center;
->>>>>>> master
+
 
 }
