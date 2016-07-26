@@ -4,19 +4,29 @@
 }
 
 <<<<<<< HEAD
+#navbar{
+  width: 100%;
+
+  position: fixed;
+  background-color:rgb(50, 154, 240) ;
+  line-height: 42px;
+  font-family: 'Hind', sans-serif;
+  text-decoration: none;
+}
+=======
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
 =======
 >>>>>>> 2e870ef2a914b8a38ab64eae5a579364f2af8f46
+>>>>>>> master
 
 nav ul li {
   list-style: none;
-  color:red;
   float: left;
-  padding: 0px 40px;
-  background-color: cornflowerblue;
+  padding: 0px 30px;
   text-align: center;
-  line-height: 42px;
+
 
 }
 
@@ -26,6 +36,9 @@ nav a {
 }
 
 nav a:hover {
+<<<<<<< HEAD
+  color:rgb(219, 145, 231);
+=======
   color:pink;
 }
 
@@ -91,5 +104,6 @@ nav a:hover {
 .socialmedia li{
   list-style-type: none;
   text-align: center;
+>>>>>>> master
 
 }
