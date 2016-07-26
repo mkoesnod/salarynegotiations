@@ -3,8 +3,11 @@
   background-size: cover;
 }
 
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
+=======
+>>>>>>> 2e870ef2a914b8a38ab64eae5a579364f2af8f46
 
 nav ul li {
   list-style: none;
@@ -26,7 +29,20 @@ nav a:hover {
   color:pink;
 }
 
+<<<<<<< HEAD
 >>>>>>> Stashed changes
+=======
+.carousel-item img {
+    margin: 0 auto;
+}
+
+.carousel-caption {
+  color: grey;
+  text-shadow: 2px solid black;
+
+}
+
+>>>>>>> 2e870ef2a914b8a38ab64eae5a579364f2af8f46
 #negotiations101 h2{
   text-align: center;
   font-size: 50px;
@@ -75,4 +91,5 @@ nav a:hover {
 .socialmedia li{
   list-style-type: none;
   text-align: center;
+
 }
