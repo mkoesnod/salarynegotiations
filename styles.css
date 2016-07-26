@@ -1,33 +1,24 @@
 #negotiations101 {
   background-color: tan;
   background-size: cover;
+  margin-top: 10px;
 }
 
-<<<<<<< HEAD
-#navbar{
+#navbar {
   width: 100%;
-
   position: fixed;
   background-color:rgb(50, 154, 240) ;
   line-height: 42px;
   font-family: 'Hind', sans-serif;
   text-decoration: none;
 }
-=======
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> 2e870ef2a914b8a38ab64eae5a579364f2af8f46
->>>>>>> master
 
 nav ul li {
   list-style: none;
   float: left;
   padding: 0px 30px;
   text-align: center;
-
-
+  margin-bottom: 0;
 }
 
 nav a {
@@ -36,26 +27,10 @@ nav a {
 }
 
 nav a:hover {
-<<<<<<< HEAD
   color:rgb(219, 145, 231);
-=======
   color:pink;
 }
 
-<<<<<<< HEAD
->>>>>>> Stashed changes
-=======
-.carousel-item img {
-    margin: 0 auto;
-}
-
-.carousel-caption {
-  color: grey;
-  text-shadow: 2px solid black;
-
-}
-
->>>>>>> 2e870ef2a914b8a38ab64eae5a579364f2af8f46
 #negotiations101 h2{
   text-align: center;
   font-size: 50px;
@@ -72,7 +47,6 @@ nav a:hover {
   margin-left: 10px;
   margin-top: 0px;
   padding-left: 50px;
-
 }
 
 .col-sm-4 {
@@ -80,7 +54,6 @@ nav a:hover {
   padding-right: 20px;
   padding-left: 20px;
   display: block;
-
 }
 
 .col-sm-4 img{
@@ -104,6 +77,4 @@ nav a:hover {
 .socialmedia li{
   list-style-type: none;
   text-align: center;
->>>>>>> master
-
 }
