@@ -1,13 +1,13 @@
 #negotiations101 {
   background-color: tan;
   background-size: cover;
-  margin-top: 10px;
 }
 
 
 #navbar {
   width: 100%;
   position: fixed;
+  top: 0;
   background-color:rgb(50, 154, 240) ;
   line-height: 42px;
   font-family: 'Hind', sans-serif;
@@ -33,15 +33,8 @@ nav a:hover {
   color:pink;
 }
 
-
-.carousel-item img {
-    margin: 0 auto;
-}
-
-.carousel-caption {
-  color: grey;
-  text-shadow: 2px solid black;
-
+.carousel {
+  margin-top: 42px;
 }
 
 #negotiations101 h2{
