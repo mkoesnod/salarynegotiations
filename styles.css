@@ -6,14 +6,26 @@
 
 #navbar {
   width: 100%;
-  position: fixed;
-  top: 0;
+  position: absolute;
   background-color:rgb(50, 154, 240) ;
   line-height: 42px;
   font-family: 'Hind', sans-serif;
   text-decoration: none;
+  z-index: 1;
 }
 
+.content-title {
+    width: 100%;
+    background-color:rgb(50, 154, 240) ;
+    line-height: 42px;
+    font-family: 'Hind', sans-serif;
+    padding: 2px;
+}
+
+#content{
+  padding: 5 px;
+  margin: 0px 10px 0px 10px;
+}
 
 nav ul li {
   list-style: none;
