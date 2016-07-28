@@ -45,8 +45,13 @@ nav a:hover {
   color:pink;
 }
 
-.carousel {
-  margin-top: 42px;
+.carousel-inner {
+  height: 100vh;
+  width: 100vw;
+}
+
+.carousel img {
+  min-width: 100%;
 }
 
 #negotiations101 h2{
