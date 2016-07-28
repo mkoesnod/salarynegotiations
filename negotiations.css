@@ -7,20 +7,30 @@ body {
   background-size: cover;
 }
 
+.intro h1 {
+  display: flex;
+  justify-content: flex-start;
+  color: red;
+  padding-top: 300px;
+}
+
 #negotiations101 {
   background-color: black;
   background-size: cover;
-  
+
 }
 #negotiations101 h2{
   text-align: center;
   font-size: 50px;
   color: red;
-  margin-bottom: 0px;
+  margin-bottom: 50px;
   padding-bottom: 15px;
   padding-top: 15px;
 }
 
+.container {
+  background-color: black;
+}
 .row {
   margin: 2em;
   background-color: black;
@@ -51,6 +61,12 @@ body {
 
 .col-sm-4 p{
   max-width: 100%;
+}
+
+#stanford-video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .socialmedia {
