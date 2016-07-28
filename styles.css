@@ -1,7 +1,6 @@
 #negotiations101 {
   background-color: tan;
   background-size: cover;
-  margin-top: 10px;
 }
 
 
@@ -46,15 +45,8 @@ nav a:hover {
   color:pink;
 }
 
-
-.carousel-item img {
-    margin: 0 auto;
-}
-
-.carousel-caption {
-  color: grey;
-  text-shadow: 2px solid black;
-
+.carousel {
+  margin-top: 42px;
 }
 
 #negotiations101 h2{
