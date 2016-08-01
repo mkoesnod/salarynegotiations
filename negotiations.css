@@ -1,9 +1,10 @@
 body {
-  background-color: black;
+background-color: black;
+background-size: cover;
 }
 .intro {
   background-image: url('pixelgirl/Ana_Julaton.jpg');
-  height: 500px;
+  height: 750px;
   background-size: cover;
 }
 
@@ -12,14 +13,14 @@ body {
   justify-content: flex-start;
   color: red;
   padding-top: 300px;
+  margin-left: 125px;
 }
 
 #negotiations101 {
   background-color: black;
   background-size: cover;
-
 }
-#negotiations101 h2{
+#negotiations101 h2 {
   text-align: center;
   font-size: 50px;
   color: red;
@@ -30,6 +31,8 @@ body {
 
 .container {
   background-color: black;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 .row {
   margin: 2em;
@@ -46,33 +49,39 @@ body {
   padding-right: 20px;
   padding-left: 20px;
   display: block;
+  margin-top: 20px;
 }
 
-.col-sm-4 img{
+.col-sm-4 img {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: auto;
 }
 
-.col-sm-4 h3{
+.col-sm-4 h3 {
   text-align: center;
+  color: red;
 }
 
-.col-sm-4 p{
+.col-sm-4 p {
   max-width: 100%;
+  color: red;
 }
 
 #stanford-video {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 20px;
 }
 
 .socialmedia {
+  clear: both;
   text-align: center;
 }
-.socialmedia li{
+.socialmedia li {
   list-style-type: none;
   text-align: center;
 }
+@media (min-width: 767px)
