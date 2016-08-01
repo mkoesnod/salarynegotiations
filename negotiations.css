@@ -6,6 +6,7 @@ background-size: cover;
   background-image: url('pixelgirl/Ana_Julaton.jpg');
   height: 750px;
   background-size: cover;
+  width: 100%;
 }
 
 .intro h1 {
@@ -62,6 +63,7 @@ background-size: cover;
 .col-sm-4 h3 {
   text-align: center;
   color: red;
+  margin-top: 20px;
 }
 
 .col-sm-4 p {
@@ -73,9 +75,15 @@ background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
+footer {
+  background-color: red;
+  height: 100px;
+  background-size: cover;
+
+}
 .socialmedia {
   clear: both;
   text-align: center;
@@ -84,4 +92,5 @@ background-size: cover;
   list-style-type: none;
   text-align: center;
 }
+
 @media (min-width: 767px)
