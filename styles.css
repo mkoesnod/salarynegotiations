@@ -101,13 +101,22 @@ body {
 }
 
 .carousel-inner {
-  min-height: 75%;
+  max-height: 80vh;
   min-width: 100%;
 }
 
 .carousel img {
   min-width: 100%;
   min-height: 50%;
+}
+
+.carousel-caption {
+position:relative;
+top: 10px;
+}
+
+.carousel h3 {
+  
 }
 
 #negotiations101 h2{
