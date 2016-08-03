@@ -98,8 +98,7 @@ background-size: cover;
 
 .container {
   background-color: black;
-  margin-left: 0px;
-  margin-right: 0px;
+
 }
 .row {
   margin: 2em;
@@ -108,7 +107,7 @@ background-size: cover;
   width: 100%;
   margin-left: 10px;
   margin-top: 0px;
-  padding-left: 50px;
+
 }
 
 .col-sm-4 {
@@ -144,22 +143,26 @@ background-size: cover;
   margin-bottom: 50px;
 }
 
+.resourceslist {
+text-decoration: none;
+}
+
 footer {
   background-color: red;
-  height: 50px;
+  height: 30%;
   background-size: cover;
 }
 
-footer p {
-
-}
 .socialmedia {
   clear: both;
   text-align: center;
+  font-size: .5em;
+}
+.socialmedia img{
+  vertical-align: middle;
 }
 .socialmedia li {
   list-style-type: none;
-  text-align: center;
   padding-top: 0;
 }
 
