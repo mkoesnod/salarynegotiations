@@ -13,10 +13,12 @@
     padding: 0;
     font-family: verdana, sans-serif;
     font-size: 11px;
-    /*background: #f7f7f7;*/
   }
 
-
+#symbol {
+  text-align: center;
+  font-size: 60px;
+}
 
 /*#content-container{
   margin: 0 200px 0 200px;*/
@@ -24,13 +26,12 @@
 
 .content-title {
     width: 100%;
-    /*background-color:rgb(50, 154, 240) ;*/
     line-height: 42px;
     font-family: 'Hind', sans-serif;
     padding: 2px;
     text-align: center;
     margin-top: 20px;
-    color: #708491;
+    color: #29638a;
 
 }
 
@@ -38,7 +39,7 @@
   padding: 5px;
   margin: 0px 10px 0px 10px;
   margin: 0 350px 0 350px;
-  color: #708491;
+  color: #29638a;
 }
 
 #body {
@@ -46,15 +47,15 @@
   padding: 0;
   font-family: verdana, sans-serif;
   font-size: 11px;
-  background: white;
+  background-color: rgba(20, 8, 243, 0.12);
 }
-
 
 #navi {
   text-align:center;
   position: relative;
   display: inline-block;
-  padding: 0 0 22px 0;
+  margin: 0 0 0 0;
+  padding: 0 0 3px 0;
 }
 
 #navi li {
@@ -72,32 +73,19 @@
   font-weight: bold;
   padding: 6px 22px 6px 22px;
   text-decoration: none;
-  color: #708491;
+  color: #29638a;
   border-left: 1px solid #9FB1BC;
   border-bottom: 1px solid #9FB1BC;
 }
-/*#contact{
-  border-right: 1px solid #9FB1BC;
-}*/
 
 #navbar #about{
   border-left: none;
 }
 
-
 #navi a:visited.active,
 #navi a:hover {
   padding-bottom: 6px;
-  color: #000;
-
   background: url(http://www.roscripts.com/uploads/4/m4.gif);
-}
-
-#rightsymbol{
-  position: absolute;
-  right: 0px;
-  top: 0px;
-  font-size: 120%;
 }
 
 .carousel-inner {
@@ -221,7 +209,6 @@ top: 10px;
   #contact{
     border-right: 1px solid #9FB1BC;
   }
-
 }
 
 @media only screen and (max-width: 462px){
@@ -229,13 +216,10 @@ top: 10px;
     border-right: 1px solid #9FB1BC;
     }
 
-    #contact{
+  #contact{
       border-right: 1px solid #9FB1BC;
     }
 }
-
-
-
 
 @media only screen and (max-width: 384px){
   #content{
