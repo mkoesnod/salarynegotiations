@@ -216,14 +216,14 @@ top: 10px;
 
 @media (min-width: 463px) and (max-width: 553px){
 
-  #news{
+  #contact{
     border-right: 1px solid #9FB1BC;
   }
 
 }
 
 @media only screen and (max-width: 462px){
-  #support{
+  #news{
     border-right: 1px solid #9FB1BC;
     }
 
@@ -240,7 +240,7 @@ top: 10px;
     margin: auto;
   }
 
-  #resources{
+  #negotiations{
     border-right: 1px solid #9FB1BC;
   }
 
@@ -248,7 +248,7 @@ top: 10px;
     border-right: 1px solid #9FB1BC;
   }
 
-  #support{
+  #news{
     border-right: none;
   }
 }
