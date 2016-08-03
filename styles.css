@@ -45,10 +45,10 @@
 #body {
   margin: 0;
   padding: 0;
+  font-family: verdana, sans-serif;
+  font-size: 11px;
   background-color: rgba(20, 8, 243, 0.12);
-
 }
-
 
 #navi {
   text-align:center;
@@ -77,25 +77,20 @@
   border-left: 1px solid #9FB1BC;
   border-bottom: 1px solid #9FB1BC;
 }
-/*#contact{
-  border-right: 1px solid #9FB1BC;
-}*/
 
 #navbar #about{
   border-left: none;
 }
 
-
 #navi a:visited.active,
 #navi a:hover {
   padding-bottom: 6px;
-  /*color: rgba(#870eb9, 0.73);*/
-
   background: url(http://www.roscripts.com/uploads/4/m4.gif);
 }
 
-
 .carousel-inner {
+  border-top: .25vh solid #708491;
+  border-bottom: .25vh solid #708491;
   max-height: 80vh;
   min-width: 100%;
 }
@@ -211,31 +206,27 @@ top: 10px;
 
 @media (min-width: 463px) and (max-width: 553px){
 
-  #news{
+  #contact{
     border-right: 1px solid #9FB1BC;
   }
-
 }
 
 @media only screen and (max-width: 462px){
-  #support{
+  #news{
     border-right: 1px solid #9FB1BC;
     }
 
-    #contact{
+  #contact{
       border-right: 1px solid #9FB1BC;
     }
 }
-
-
-
 
 @media only screen and (max-width: 384px){
   #content{
     margin: auto;
   }
 
-  #resources{
+  #negotiations{
     border-right: 1px solid #9FB1BC;
   }
 
@@ -243,7 +234,7 @@ top: 10px;
     border-right: 1px solid #9FB1BC;
   }
 
-  #support{
+  #news{
     border-right: none;
   }
 }
