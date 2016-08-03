@@ -41,12 +41,12 @@
   color: #708491;
 }
 
-body {
+#body {
   margin: 0;
   padding: 0;
   font-family: verdana, sans-serif;
   font-size: 11px;
-  background: #f7f7f7;
+  background: white;
 }
 
 
@@ -101,6 +101,8 @@ body {
 }
 
 .carousel-inner {
+  border-top: .25vh solid #708491;
+  border-bottom: .25vh solid #708491;
   max-height: 80vh;
   min-width: 100%;
 }
