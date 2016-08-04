@@ -144,9 +144,36 @@ background-size: cover;
 }
 
 .resourceslist {
-text-decoration: none;
+  text-align: center;
+}
+.resourceslist h3 {
+  color: red;
+  text-decoration: underline;
 }
 
+.resourceslist ul{
+list-style-type: none;
+padding-left: 0;
+}
+
+.resourceslist a {
+  color: red;
+}
+a:link {
+    text-decoration: none;
+}
+
+.resourceslist a:visited {
+    text-decoration:line-through;
+}
+
+.resourceslist a:hover {
+    text-decoration: underline;
+}
+
+.resourceslist a:active {
+    text-decoration: underline;
+}
 footer {
   background-color: red;
   height: 30%;

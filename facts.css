@@ -69,3 +69,12 @@ body {
   width: 100%;
   height: 50%;
 }
+
+.socialmedia {
+  text-align: center;
+  font-size: .5em;
+}
+.socialmedia li{
+  list-style-type: none;
+  text-align: center;
+}
