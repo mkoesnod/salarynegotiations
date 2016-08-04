@@ -80,3 +80,12 @@ top: 10px;
 .carousel h3 {
   height: 125%;
 }
+
+.socialmedia {
+  text-align: center;
+  font-size: .5em;
+}
+.socialmedia li{
+  list-style-type: none;
+  text-align: center;
+}
