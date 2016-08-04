@@ -94,27 +94,6 @@
   background: url(http://www.roscripts.com/uploads/4/m4.gif);
 }
 
-.carousel-inner {
-  border-top: .25vh solid #708491;
-  border-bottom: .25vh solid #708491;
-  max-height: 80vh;
-  min-width: 100%;
-}
-
-.carousel img {
-  min-width: 100%;
-  min-height: 50%;
-}
-
-.carousel-caption {
-position:relative;
-top: 10px;
-}
-
-.carousel h3 {
-  height: 125%;
-}
-
 #negotiations101 h2{
   text-align: center;
   font-size: 50px;
