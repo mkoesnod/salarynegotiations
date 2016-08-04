@@ -65,10 +65,24 @@ main {
   text-align: center;
 }
 
+p {
+  color: white;
+  font-family: monospace;
+  font-size: 115%;
+}
+
 img {
   display: inline-block;
   border-radius: 50%;
   border: solid grey 1px;
   text-align: center;
-  text-decoration-color: white;
+}
+
+image-caption {
+  display: block;
+  text-align: center;
+}
+
+h1 {
+  color: white;
 }
