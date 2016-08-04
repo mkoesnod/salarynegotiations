@@ -24,6 +24,12 @@
   margin: 0 200px 0 200px;*/
 /*}*/
 
+#container {
+  width: 100%
+
+  margin: 0 40px 0 40px;
+}
+
 .content-title {
     width: 100%;
     line-height: 42px;
@@ -45,8 +51,8 @@
 #body {
   margin: 0;
   padding: 0;
-  font-family: verdana, sans-serif;
-  font-size: 11px;
+  /*font-family: verdana, sans-serif;*/
+  /*font-size: 11px;*/
   background-color: rgba(20, 8, 243, 0.12);
 }
 
@@ -160,7 +166,7 @@ top: 10px;
 @media only screen and (max-width: 2000px){
 
   #content{
-    margin: 0 25em 0 25em;
+    margin: 0 35em 0 35em;
 
   }
 }
