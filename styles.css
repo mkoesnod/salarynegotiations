@@ -11,13 +11,16 @@
 #navbar {
 
     padding: 0;
-    font-family: verdana, sans-serif;
-    font-size: 11px;
+    font-family: 'Nixie One', cursive;
+
+    font-weight: bolder;
   }
 
 #symbol {
   text-align: center;
   font-size: 60px;
+  color: white;
+  margin: 4px 0px 4px 0px;
 }
 
 /*#content-container{
@@ -36,16 +39,34 @@
     font-family: 'Hind', sans-serif;
     padding: 2px;
     text-align: center;
-    margin-top: 20px;
+    margin: 16px 0px 16px ;
     color: #29638a;
+    font-family: 'Homemade Apple', cursive;
 
 }
 
+#title-bottom {
+  width: 100%;
+  line-height: 42px;
+  font-family: 'Hind', sans-serif;
+  padding: 2px;
+  text-align: center;
+  margin-top: 8px;
+  margin-bottom: 16px;
+  color: #29638a;
+}
+
+
+
 #content{
-  padding: 5px;
+  padding: 15px 43px 15px 43px;
   margin: 0px 10px 0px 10px;
   margin: 0 350px 0 350px;
-  color: #29638a;
+  color: black;
+  background-color: #f5ecec;
+  border-radius: 1px 1px;
+  font-family: 'Nixie One', cursive;
+  font-weight: bold;
 }
 
 #body {
@@ -74,7 +95,7 @@
 #navi a:link,
 #navi a:visited {
   float: left;
-  font-size: 11px;
+
   line-height: 20px;
   font-weight: bold;
   padding: 6px 22px 6px 22px;
@@ -92,6 +113,14 @@
 #navi a:hover {
   padding-bottom: 6px;
   background: url(http://www.roscripts.com/uploads/4/m4.gif);
+}
+
+#content a {
+  text-decoration: none;
+  }
+
+  #content a:hover{
+    color:rgba(152, 46, 46, 0.82);
 }
 
 .carousel-inner {
@@ -172,7 +201,7 @@ top: 10px;
 }
 
 
-@media only screen and (max-width: 1300px){
+@media only screen and (max-width: 1500px){
 
   #content{
     margin: 0 20em 0 20em;
@@ -202,22 +231,15 @@ top: 10px;
 }
 
 @media only screen and (max-width: 554px){
-  #contact{
-    border-right: 1px solid #9FB1BC;
-  }
+
 
   #content{
     margin: 0 3em 0 3em;
   }
 
-@media (min-width: 463px) and (max-width: 553px){
 
-  #contact{
-    border-right: 1px solid #9FB1BC;
-  }
-}
 
-@media only screen and (max-width: 462px){
+@media only screen and (max-width: 534px){
   #news{
     border-right: 1px solid #9FB1BC;
     }
@@ -227,7 +249,7 @@ top: 10px;
     }
 }
 
-@media only screen and (max-width: 384px){
+@media only screen and (max-width: 430px){
   #content{
     margin: auto;
   }

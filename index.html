@@ -10,6 +10,8 @@
 
           <link href="https://fonts.googleapis.com/css?family=Hind:500" rel="stylesheet" type="text/css">
           <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+          <link href='https://fonts.googleapis.com/css?family=Homemade+Apple' rel='stylesheet' type='text/css'>
+          <link href='https://fonts.googleapis.com/css?family=Nixie+One' rel='stylesheet' type='text/css'>
 
           <title>#equality</title>
 
@@ -20,11 +22,11 @@
       <header id="navigation">
         <nav id="navbar">
           <ul id="navi">
-              <li><a id="about" href="aboutus.html/content">&#9898;  About</a></li>
+              <li><a id="about" href="">About</a></li>
               <li><a id="facts" href="facts.html">Facts</a></li>
               <li><a id="negotiations" href="negotiations.html">Negotiations</a></li>
               <li><a id="news" href="news.html">News</a></li>
-              <li><a id="contact" href="index.html/footer">Contact &#9898;</a></li>
+              <li><a id="contact" href="index.html/footer">Contact</a></li>
            </ul>
          </nav>
        </header>
@@ -34,15 +36,18 @@
 
        <!-- CONTENT -->
        <div id="content-container">
-       <h3 class="content-title"> The year is 2016... </h3>
-       <p id = "content">and we still have a long way to go when it comes to gender equality in America.  It’s hard to believe that in March of this year, Republican presidential candidate Donald Trump proposed that there would be “some form of punishment,” for women seeking abortions if the practice was outlawed, 43 years after the 1973 Supreme Court ruling of Roe v. Wade.
+       <h3 class="content-title"> The year is <span id="year">x</span>... </h3>
+       <p id = "content">and we still have a long way to go when it comes to gender equality in America.  It’s hard to believe that in March of this year, Republican presidential candidate Donald Trump proposed that there would be “some form of punishment,” for women seeking abortions if the practice was outlawed, 43 years after the 1973 Supreme Court ruling of <em>Roe v. Wade</em>.
        Nearly a century has passed since the Nineteenth Amendment was enacted, prohibiting sex-based restriction on voting, and yet politically, economically and socially, the rights of men and women in America is far from equal.
-       Women consistently and systematically face discrimination and ridicule in the workplace, harassment and violence on the street and at home, unequal representation in politics and workspace, and political policing over our own bodies.  Stereotypes of women proliferate household, school systems, political spheres, and work spaces, trickling into the stores we shop in, and the television we watch.  This toxic culture affects <a href = "pixelgirl/gender.jpg"> everyone</a>, and simply put, we refuse to refrain from having a voice.   This site is dedicated to empower, educate, and inform in the name of equality.
+       Women <em>consistently</em> and <em>systematically</em> face discrimination and ridicule in the workplace, harassment and violence on the street and at home, unequal representation in politics and workspace, and political policing over our own bodies.  Stereotypes of women proliferate household, school systems, political spheres, and work spaces, trickling into the stores we shop in, and the television we watch.  This toxic culture affects <a href = "pixelgirl/gender.jpg"> everyone</a>, and simply put, we refuse to refrain from having a voice.   This site is dedicated to empower, educate, and inform in the name of equality.
+</script>
+
+       The year is <span id="year">2016</span>.
        </p>
-       <h3 class="content-title"> The year is 2016. </h3>
+       <!-- <h3 id="title-bottom"> The year is 2016. </h3> -->
        </div>
 
-       <div id="carousel" class="carousel slide" data-ride="carousel">
+       <!-- <div id="carousel" class="carousel slide" data-ride="carousel">
          <ol class="carousel-indicators">
            <li data-target="#carousel" data-slide-to="0" class="active"></li>
            <li data-target="#carousel" data-slide-to="1"></li>
@@ -83,22 +88,10 @@
            <span class="sr-only">Next</span>
          </a>
        </div>
-     </div>
-
-
-<!-- CONTENT -->
-<!-- <div id="content-container">
-<h3 class="content-title"> The year is 2016... </h3>
-<p id = "content">and we still have a long way to go when it comes to gender equality in America.  It’s hard to believe that in March of this year, Republican presidential candidate Donald Trump proposed that there would be “some form of punishment,” for women seeking abortions if the practice was outlawed, 43 years after the 1973 Supreme Court ruling of Roe v. Wade.
-Nearly a century has passed since the Nineteenth Amendment was enacted, prohibiting sex-based restriction on voting, and yet politically, economically and socially, the rights of men and women in America is far from equal.
-Women consistently and systematically face discrimination and ridicule in the workplace, harassment and violence on the street and at home, unequal representation in politics and workspace, and political policing over our own bodies.  Stereotypes of women proliferate household, school systems, political spheres, and work spaces, trickling into the stores we shop in, and the television we watch.  This toxic culture affects <a href = "pixelgirl/gender.jpg"> everyone</a>, and simply put, we refuse to refrain from having a voice.   This site is dedicated to empower, educate, and inform in the name of equality.
-</p>
-<h3 class="content-title"> The year is 2016. </h3>
-</div> -->
-
+     </div> -->
 
           <!-- start Footer -->
-          <footer>
+          <!-- <footer>
           <div class="socialmedia">
             <h4> Empower Others </h4>
             <ul>
@@ -108,12 +101,18 @@ Women consistently and systematically face discrimination and ridicule in the wo
            </div>
           </footer>
           <!-- end Footer -->
-          <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+          <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
           <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
           <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
           <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
           <script type="text/javascript" src="slick/slick.min.js"></script>
 
-</div>
+</div> -->
+<script type="text/javascript">
+var yeartag=document.getElementById("year");
+console.log(yeartag);
+yeartag.innerHTML= new Date().getFullYear();
+</script>
         </body>
+
     </html>
