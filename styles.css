@@ -28,8 +28,7 @@
 /*}*/
 
 #container {
-  width: 100%
-
+  width: 100%;
   margin: 0 40px 0 40px;
 }
 
@@ -72,8 +71,6 @@
 #body {
   margin: 0;
   padding: 0;
-  /*font-family: verdana, sans-serif;*/
-  /*font-size: 11px;*/
   background-color: rgba(20, 8, 243, 0.12);
 }
 
@@ -115,6 +112,7 @@
   background: url(http://www.roscripts.com/uploads/4/m4.gif);
 }
 
+
 #content a {
   text-decoration: none;
   }
@@ -123,26 +121,6 @@
     color:rgba(152, 46, 46, 0.82);
 }
 
-.carousel-inner {
-  border-top: .25vh solid #708491;
-  border-bottom: .25vh solid #708491;
-  max-height: 80vh;
-  min-width: 100%;
-}
-
-.carousel img {
-  min-width: 100%;
-  min-height: 50%;
-}
-
-.carousel-caption {
-position:relative;
-top: 10px;
-}
-
-.carousel h3 {
-  height: 125%;
-}
 
 #negotiations101 h2{
   text-align: center;
@@ -186,20 +164,12 @@ top: 10px;
 
 .socialmedia {
   text-align: center;
+  font-size: .5em;
 }
 .socialmedia li{
   list-style-type: none;
   text-align: center;
 }
-
-@media only screen and (max-width: 2000px){
-
-  #content{
-    margin: 0 35em 0 35em;
-
-  }
-}
-
 
 @media only screen and (max-width: 1500px){
 
