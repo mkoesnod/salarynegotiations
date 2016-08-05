@@ -2,6 +2,70 @@ body {
 background-color: black;
 background-size: cover;
 }
+
+#negotiations101 {
+  background-color: tan;
+  background-size: cover;
+}
+
+#navigation {
+  width: 100%;
+  text-align: center;
+}
+
+#navbar {
+
+    padding: 0;
+    font-family: verdana, sans-serif;
+    font-size: 11px;
+  }
+  #navi {
+    text-align:center;
+    position: relative;
+    display: inline-block;
+    padding: 0 0 22px 0;
+  }
+
+  #navi li {
+    margin: 0;
+    padding: 0;
+    display: inline;
+    list-style-type: none;
+  }
+
+  #navi a:link,
+  #navi a:visited {
+    float: left;
+    font-size: 11px;
+    line-height: 20px;
+    font-weight: bold;
+    padding: 6px 22px 6px 22px;
+    text-decoration: none;
+    color: #708491;
+    border-left: 1px solid #9FB1BC;
+    border-bottom: 1px solid #9FB1BC;
+  }
+
+  #navbar #about{
+    border-left: none;
+  }
+
+
+  #navi a:visited.active,
+  #navi a:hover {
+    padding-bottom: 6px;
+    color: #000;
+
+    background: url(http://www.roscripts.com/uploads/4/m4.gif);
+  }
+
+  #rightsymbol{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    font-size: 120%;
+  }
+
 .intro {
   background-image: url('pixelgirl/Ana_Julaton.jpg');
   height: 76vh;
@@ -34,8 +98,7 @@ background-size: cover;
 
 .container {
   background-color: black;
-  margin-left: 0px;
-  margin-right: 0px;
+
 }
 .row {
   margin: 2em;
@@ -44,7 +107,7 @@ background-size: cover;
   width: 100%;
   margin-left: 10px;
   margin-top: 0px;
-  padding-left: 50px;
+
 }
 
 .col-sm-4 {
@@ -80,22 +143,53 @@ background-size: cover;
   margin-bottom: 50px;
 }
 
+.resourceslist {
+  text-align: center;
+}
+.resourceslist h3 {
+  color: red;
+  text-decoration: underline;
+}
+
+.resourceslist ul{
+list-style-type: none;
+padding-left: 0;
+}
+
+.resourceslist a {
+  color: red;
+}
+a:link {
+    text-decoration: none;
+}
+
+.resourceslist a:visited {
+    text-decoration:line-through;
+}
+
+.resourceslist a:hover {
+    text-decoration: underline;
+}
+
+.resourceslist a:active {
+    text-decoration: underline;
+}
 footer {
   background-color: red;
-  height: 50px;
+  height: 30%;
   background-size: cover;
 }
 
-footer p {
-
-}
 .socialmedia {
   clear: both;
   text-align: center;
+  font-size: .5em;
+}
+.socialmedia img{
+  vertical-align: middle;
 }
 .socialmedia li {
   list-style-type: none;
-  text-align: center;
   padding-top: 0;
 }
 
