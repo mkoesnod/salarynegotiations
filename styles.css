@@ -25,8 +25,7 @@
 /*}*/
 
 #container {
-  width: 100%
-
+  width: 100%;
   margin: 0 40px 0 40px;
 }
 
@@ -51,8 +50,6 @@
 #body {
   margin: 0;
   padding: 0;
-  /*font-family: verdana, sans-serif;*/
-  /*font-size: 11px;*/
   background-color: rgba(20, 8, 243, 0.12);
 }
 
@@ -92,27 +89,6 @@
 #navi a:hover {
   padding-bottom: 6px;
   background: url(http://www.roscripts.com/uploads/4/m4.gif);
-}
-
-.carousel-inner {
-  border-top: .25vh solid #708491;
-  border-bottom: .25vh solid #708491;
-  max-height: 80vh;
-  min-width: 100%;
-}
-
-.carousel img {
-  min-width: 100%;
-  min-height: 50%;
-}
-
-.carousel-caption {
-position:relative;
-top: 10px;
-}
-
-.carousel h3 {
-  height: 125%;
 }
 
 #negotiations101 h2{
