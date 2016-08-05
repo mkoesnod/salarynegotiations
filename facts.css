@@ -77,8 +77,12 @@ position:relative;
 top: 10px;
 }
 
-.carousel h3 {
+.carousel p {
   height: 125%;
+}
+
+.clash {
+  color: grey;
 }
 
 .socialmedia {
