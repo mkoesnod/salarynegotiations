@@ -78,3 +78,12 @@ image-caption {
 h1 {
   color: white;
 }
+.socialmedia {
+  text-align: center;
+  font-size: .5em;
+  background-color: white;
+}
+.socialmedia li{
+  list-style-type: none;
+  text-align: center;
+}
