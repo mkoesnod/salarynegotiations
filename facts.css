@@ -9,7 +9,7 @@ body {
 
 #navbar {
     padding: 0;
-    font-family: verdana, sans-serif;
+    font-family: 'Nixie One', cursive;
     font-size: 11px;
   }
 
@@ -79,15 +79,29 @@ top: 10px;
 
 .carousel p {
   height: 125%;
+  font-family: 'Homemade Apple', cursive;
+  color: white;
+  font-size: 200%;
 }
 
 .clash {
   color: grey;
 }
 
+main {
+  font-family: 'Nixie One', cursive;
+  list-style-type: none;
+}
+
+main ul {
+  list-style-type: none;;
+  text-align: center;
+}
+
 .socialmedia {
   text-align: center;
   font-size: .5em;
+  font-family: 'Nixie One', cursive;
 }
 .socialmedia li{
   list-style-type: none;
