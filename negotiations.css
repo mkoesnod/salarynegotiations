@@ -16,7 +16,7 @@ background-size: cover;
 #navbar {
 
     padding: 0;
-    font-family: verdana, sans-serif;
+    font-family: 'Nixie One', cursive;
     font-size: 11px;
   }
   #navi {
@@ -81,6 +81,7 @@ background-size: cover;
   color: red;
   padding-top: 300px;
   margin-left: 125px;
+    font-family: 'Homemade Apple', cursive;
 }
 
 #negotiations101 {
@@ -129,11 +130,13 @@ background-size: cover;
   text-align: center;
   color: red;
   margin-top: 20px;
+  font-family: 'Homemade Apple', cursive;
 }
 
 .col-sm-4 p {
   max-width: 100%;
   color: red;
+  font-family: 'Nixie One', cursive;
 }
 
 #stanford-video {
@@ -149,11 +152,13 @@ background-size: cover;
 .resourceslist h3 {
   color: red;
   text-decoration: underline;
+  font-family: 'Homemade Apple', cursive;
 }
 
 .resourceslist ul{
 list-style-type: none;
 padding-left: 0;
+font-family: 'Nixie One', cursive;
 }
 
 .resourceslist a {
@@ -184,6 +189,7 @@ footer {
   clear: both;
   text-align: center;
   font-size: .5em;
+  font-family: 'Nixie One', cursive;
 }
 .socialmedia img{
   vertical-align: middle;

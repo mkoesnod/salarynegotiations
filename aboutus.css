@@ -10,7 +10,7 @@ body {
 #navbar {
     margin-top: -20px;
     padding: 0;
-    font-family: verdana, sans-serif;
+    font-family: 'Nixie One', cursive;
     font-size: 11px;
   }
 
@@ -59,7 +59,7 @@ main {
 
 p {
   color: white;
-  font-family: monospace;
+  font-family: 'Nixie One', cursive;
   font-size: 115%;
 }
 
@@ -77,11 +77,13 @@ image-caption {
 
 h1 {
   color: white;
+  font-family: 'Homemade Apple', cursive;
 }
 .socialmedia {
   text-align: center;
   font-size: .5em;
   background-color: white;
+  font-family: 'Nixie One', cursive;
 }
 .socialmedia li{
   list-style-type: none;
