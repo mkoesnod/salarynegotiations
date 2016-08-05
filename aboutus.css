@@ -50,16 +50,8 @@ body {
 #navi a:hover {
   padding-bottom: 6px;
   color: #000;
-
   background: url(http://www.roscripts.com/uploads/4/m4.gif);
 }
-
-/*#rightsymbol{
-  position: absolute;
-  right: 0px;
-  top: 0px;
-  font-size: 120%;
-}*/
 
 main {
   text-align: center;
