@@ -32,7 +32,7 @@
 .content-title {
     width: 100%;
     line-height: 42px;
-    font-family: 'Hind', sans-serif;
+    font-family: monospace;
     padding: 2px;
     text-align: center;
     margin-top: 20px;
@@ -45,6 +45,8 @@
   margin: 0px 10px 0px 10px;
   margin: 0 350px 0 350px;
   color: #29638a;
+  background-color: #ece5db;
+  font-family: monospace;
 }
 
 #body {
@@ -139,16 +141,6 @@
   list-style-type: none;
   text-align: center;
 }
-
-
-@media only screen and (max-width: 2000px){
-
-  #content{
-    margin: 0 35em 0 35em;
-
-  }
-}
-
 
 @media only screen and (max-width: 1300px){
 
