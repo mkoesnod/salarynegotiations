@@ -10,7 +10,7 @@ body {
 #navbar {
     padding: 0;
     font-family: 'Nixie One', cursive;
-    font-size: 11px;
+    font-size: 12px;
   }
 
 #navi {
@@ -90,6 +90,7 @@ top: 10px;
 
 main {
   font-family: 'Nixie One', cursive;
+  font-weight: bold;
   list-style-type: none;
 }
 
